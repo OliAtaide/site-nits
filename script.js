@@ -18,7 +18,7 @@ $(window).scroll(function () {
 $('.slider-item').click(function () {
     var data_sec = $(this).data('sec')
     $('.sec').each(function () {
-        if($(this).hasClass(data_sec)){
+        if ($(this).hasClass(data_sec)) {
             $([document.documentElement, document.body]).animate({
                 scrollTop: $(this).position().top
             }, 100);
