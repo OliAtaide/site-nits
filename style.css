@@ -94,11 +94,28 @@ h4 {
     background-color: white;
 }
 
-.slider li:not(:last-child) .circle:after {
+.slider-item{
+    cursor: pointer;
+}
+
+.slider-item:hover{
+    color: black;
+    font-weight: 900;
+}
+
+.slider-item-active .circle{
+    background-color: #707070;
+}
+
+.slider-item:not(:last-child) .circle:after {
     content: '';
     border: 1px solid #707070;
     height: 13px;
     margin-left: 3px;
     margin-top: 10px;
     position: absolute;
+}
+
+.sec{
+    min-height: 100vh;
 }

@@ -10,34 +10,36 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <ul class="slider position-fixed">
-        <li class="d-flex">
+        <li class="d-flex slider-item" data-sec="linhas-pesquisa">
             <span class="me-auto">Linhas de Pesquisa</span>
             <div class="circle"></div>
         </li>
-        <li class="d-flex">
+        <li class="d-flex slider-item" data-sec="solucoes">
             <span class="me-auto">Soluções</span>
             <div class="circle"></div>
         </li>
-        <li class="d-flex">
+        <li class="d-flex slider-item" data-sec="vitrine-tecnologia">
             <span class="me-auto">Vitrine Tecnológica</span>
             <div class="circle"></div>
         </li>
-        <li class="d-flex">
+        <li class="d-flex slider-item" data-sec="rh-tech">
             <span class="me-auto">Recursos Humanos e Tecnológicos</span>
             <div class="circle"></div>
         </li>
-        <li class="d-flex">
+        <li class="d-flex slider-item" data-sec="eventos">
             <span class="me-auto">Eventos</span>
             <div class="circle"></div>
         </li>
     </ul>
-    
+
     <div class="header">
         <div class="container h-100 d-flex align-items-end">
             <h1 class="mb-5 text-white">LAIS inovação</h1>
@@ -109,7 +111,7 @@
             </div>
         </div>
     </div>
-    <div class="linhas-pesquisa py-5">
+    <div class="sec linhas-pesquisa py-5">
         <div class="container">
             <h1>
                 Linhas de Pesquisa
@@ -130,7 +132,7 @@
             </div>
         </div>
     </div>
-    <div class="solucoes py-5">
+    <div class="sec solucoes py-5">
         <div class="container">
             <h1>Soluções</h1>
             <div class="container-body">
@@ -177,7 +179,7 @@
             </div>
         </div>
     </div>
-    <div class="vitrine-tecnologia py-5">
+    <div class="sec vitrine-tecnologia py-5">
         <div class="container">
             <h1>
                 Vitrine Tecnológica
@@ -228,7 +230,7 @@
             </p>
         </div>
     </div>
-    <div class="rh-tech py-5">
+    <div class="sec rh-tech py-5">
         <div class="container">
             <h1 class="mb-3">
                 Recursos Humanos e Tecnológicos
@@ -317,7 +319,7 @@
             </div>
         </div>
     </div>
-    <div class="eventos py-5">
+    <div class="sec eventos py-5">
         <div class="container">
             <h1>
                 Eventos
@@ -330,5 +332,7 @@
         </div>
     </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>
