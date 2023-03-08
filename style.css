@@ -140,14 +140,14 @@
   align-self: center;
 }
 .nits .suas-solucoes {
-  background-image: url("imgs/notes.png");
-  background-position: 125% 50%;
+  background-image: url("imgs/Capa-3.jpg");
+  background-position: 60vw 50%;
   background-repeat: no-repeat;
   background-color: #035c8c;
   color: white;
 }
 .nits .suas-solucoes .texto {
-  width: 60%;
+  width: 50%;
 }
 .nits .suas-solucoes h1 {
   margin-bottom: 1em;
